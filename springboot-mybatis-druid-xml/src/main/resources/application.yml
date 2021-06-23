@@ -1,0 +1,10 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  servlet:
+    context-path: /cloud
+
+#mybatis:
+#  mapper-locations: classpath*:com/cloud/biz/dao/mapper/*Mapper.xml
