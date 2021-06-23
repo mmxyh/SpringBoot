@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
 
-@ImportResource("classpath*:config/spring-mvc.xml")
+@ImportResource("classpath*:config/spring.xml")
 @SpringBootApplication(scanBasePackages = {"com.cloud"})
 public class CloudApplication {
 

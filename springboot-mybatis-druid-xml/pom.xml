@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.cloud</groupId>
     <artifactId>cloud</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>cloud</name>
     <description>SpringBoot-Mybatis-Druid-XML</description>
 
@@ -69,6 +69,7 @@
             <artifactId>mybatis</artifactId>
             <version>${mybatis.version}</version>
         </dependency>
+        <!-- TODO： mybatis-spring和 ybatis-spring-boot-starter两者选其一  -->
 <!--        <dependency>-->
 <!--            <groupId>org.mybatis</groupId>-->
 <!--            <artifactId>mybatis-spring</artifactId>-->
@@ -154,20 +155,6 @@
             <artifactId>aspectjweaver</artifactId>
             <version>1.8.14</version>
         </dependency>
-
-
-
-
-
-
-
-        <!--jwt start-->
-        <dependency>
-            <groupId>com.auth0</groupId>
-            <artifactId>java-jwt</artifactId>
-            <version>3.5.0</version>
-        </dependency>
-        <!--jwt end-->
 
     </dependencies>
 
